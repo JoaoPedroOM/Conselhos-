@@ -1,23 +1,37 @@
-const bnt = document.getElementById('botao');
 
-function pegaConselho() {
+const API_URL = 'https://pensador-api.vercel.app/?term=Jesus+Cristo&max=200';
+const textConselho = document.getElementById('text'); // h2 que exibe a frase
 
-  fetch('https://api.adviceslip.com/advice')
+function pegaFrase() 
+{
 
-  .then(response => response.json()) // quando a resposta da API é recebida, usamos o método then() para transformar a resposta em um objeto JSON que 
-                                    // possa ser facilmente manipulado pelo JavaScript.
+  fetch(API_URL)
+  
+  .then(response => response.json())
+  .then(data => {
+    const frases = data.frases;
 
-  .then(data => { // Aqui podemos manipular nosso objeto JSON 
-   const textConselho = document.getElementById('text');
-   const mensagem = data.slip.advice;
-   textConselho.innerHTML = mensagem;
-})
+    // textConselho = ""; //Inicia vazio
+    
+    for (let i = 0; i < frases.length; i++) 
+    {
+      
+      const texto = frases[Math.floor(Math.random() * frases.length)].texto;
 
-  .catch(error => console.error(error));
+      while (texto.length >= 190) 
+      {
+        const randomIndex = Math.floor(Math.random() * frases.length);
+        texto = frases[randomIndex].texto;
+      }
+      textConselho.innerHTML = texto;
+    }
+  })
+
+  .catch(error => console.log(error))
 }
 
+const bnt = document.getElementById('botao');
+bnt.addEventListener("click", pegaFrase);
 
-//Traduzindo os dados da api
 
 
-bnt.addEventListener("click", pegaConselho);
