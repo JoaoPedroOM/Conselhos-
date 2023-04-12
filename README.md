@@ -7,11 +7,11 @@ Gerador de frases para abençoar seu dia ❤
 </p>
 
    <div align="center">
-    <img src=https://user-images.githubusercontent.com/63527881/231314955-d3ffddcc-9b6b-4e45-a12a-d268c90a3afd.png width="950" height="530" hspace="20" vspace="20"/>  
+    <img src=https://user-images.githubusercontent.com/63527881/231314955-d3ffddcc-9b6b-4e45-a12a-d268c90a3afd.png width="950" height="510" hspace="20" vspace="20"/>  
   </div>
   
 ## 😊 Como usar 
-Para utilizar o gerador, basta acessar a página do projeto [aqui](). Ao abrir a página, uma frase bíblica aleatória será gerada automaticamente.
+Para utilizar o gerador, basta acessar a página do projeto [aqui](https://conselhos.vercel.app/). Ao abrir a página, uma frase bíblica aleatória será gerada automaticamente.
 
 Se quiser gerar outra frase, basta clicar no botão que a página irá carregar outra frase.
 
