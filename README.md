@@ -11,7 +11,7 @@ Gerador de frases para abençoar seu dia ❤
   </div>
   
 ## 😊 Como usar 
-Para utilizar o gerador, basta acessar a página do projeto [aqui](https://conselhos.vercel.app/). Ao abrir a página, uma frase bíblica aleatória será gerada automaticamente.
+Para utilizar o gerador, basta acessar a página do projeto [aqui](https://conselhos.vercel.app/). Ao abrir a página, uma frase linda e aleatória será gerada automaticamente.
 
 Se quiser gerar outra frase, basta clicar no botão que a página irá carregar outra frase.
 
