@@ -7,7 +7,7 @@ Gerador de frases para abençoar seu dia ❤
 </p>
 
    <div align="center">
-    <img src=https://user-images.githubusercontent.com/63527881/231314955-d3ffddcc-9b6b-4e45-a12a-d268c90a3afd.png width="950" height="500" hspace="20" vspace="20"/>  
+    <img src=https://user-images.githubusercontent.com/63527881/231314955-d3ffddcc-9b6b-4e45-a12a-d268c90a3afd.png width="950" height="auto" hspace="20" vspace="20"/>  
   </div>
   
 ## 😊 Como usar 
