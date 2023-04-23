@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 
-O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. A "API Pensador" foi utilizada para obter as frases bíblicas.
+O projeto foi desenvolvido utilizando HTML, CSS e JavaScript. A "API Pensador" foi utilizada para obter as frases.
 
 ## 💻 Projeto 
  Com uma interface simples e amigável, os usuários podem acessar a página e receber frases bíblicas.
